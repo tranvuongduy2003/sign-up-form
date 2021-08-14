@@ -1,0 +1,72 @@
+@media screen and (max-width: 1149px) {
+    .signup {
+        &-social {
+            &__item {
+                justify-content: center;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            &__desc {
+                padding-left: 1rem;
+            }
+        }
+        
+        &__name,
+        &__email {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .signup {
+        &__left {
+            width: 100%;
+        }
+
+        &__right {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .signup {
+        &__redirect {
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .signup {
+        &__title {
+            text-align: center;
+        }
+
+        &__desc {
+            color: white;
+            padding: 0;
+            &:before {
+                width: 100%;
+            }
+        }
+
+        &-social {
+            justify-content: space-around;
+            &__item {
+                width: 5rem;
+                height: 5rem;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                margin-bottom: 2rem;
+            }
+            &__desc {
+                display: none;
+            }
+        }
+    }
+}
